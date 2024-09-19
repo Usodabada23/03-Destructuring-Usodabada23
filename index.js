@@ -23,7 +23,8 @@ Rewrite the code below to use array destructuring instead of assigning each valu
   
     let numbers = [3, 5, 4, 2, 6, 1];
   
-    let [three, five, four, two, six, one] = numbers;
+    let [one, two, three, four, five, six] = numbers;
+    [one, two, three, four, five, six]=[six, four, one, three, two, five];
   
     console.log(`One: ${one}, Two: ${two}, Three: ${three}, Four: ${four}, Five: ${five}, Six: ${six}`);
     console.log();
